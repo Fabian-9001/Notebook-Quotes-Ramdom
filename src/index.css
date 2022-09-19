@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(255, 216, 144);
+    width: 550px;
+    position: relative;
+    min-height: 700px;
+    border-radius: 10px;
+    box-shadow: 10px 10px white, 20px 20px rgb(255, 216, 144), 20px 20px 10px 5px black;
+}
+
+.card__quote {
+    font-size: 2rem;
+    margin: 10px 10px 0px 50px;
+
+}
+
+.card__author {
+    margin-left: 50%;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.circle {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 7px;
+    box-shadow: 0 50px, 0 100px, 0 150px, 0 200px, 0 250px,
+        0 300px, 0 350px, 0 400px, 0 450px, 0 500px, 0 550px, 0 600px;
+}
+
+.line {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    transform: translateY(-50%);
+    left: -20px;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 50px, 0 100px, 0 150px, 0 200px, 0 250px,
+        0 300px, 0 350px, 0 400px, 0 450px, 0 500px, 0 550px, 0 600px;
+}
