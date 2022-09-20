@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import { ButtonAction } from './components/ButtonAction'
 import { QuoteBox } from './components/QuoteBox'
 import quotes from "./json/quote.json"
 import colors from "./utils/colors"
@@ -32,7 +31,6 @@ function App() {
     setRamdomQuote(quotes[getIndexRamdom(quotes)])
     setRamdomColor(colors[getIndexRamdom(colors)])
   }
-
 
   return (
     <div style={background} className="App">
