@@ -34,7 +34,6 @@ function App() {
 
   return (
     <div style={background} className="App">
-
       <QuoteBox
         ramdomQuote={ramdomQuote}
         ramdomColor={ramdomColor}
