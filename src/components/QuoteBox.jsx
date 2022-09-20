@@ -12,7 +12,7 @@ export const QuoteBox = ({ ramdomQuote, ramdomColor, getAllRamdom, background })
     return (
         <article style={color} className='card'>
 
-            <img className='card__border__quote' src="src\utils\img\istockphoto-1157432495-170667a-removebg-preview.png" alt="Imagen de borde para citas" />
+            <img className='card__border__quote' src="./src/utils/img/border.png" alt="Imagen de borde para citas" />
 
             <div className='card__title'>
                 <h1 className='card__h1'> <span className='quotation__marks'>“</span>Lo intentas, te equivocas <br />
