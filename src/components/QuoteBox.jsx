@@ -1,7 +1,5 @@
 import React from 'react'
 import { ButtonAction } from './ButtonAction'
-import imgFondo from '/src/img/border.png'
-
 
 export const QuoteBox = ({ ramdomQuote, ramdomColor, getAllRamdom, background }) => {
 
@@ -13,7 +11,7 @@ export const QuoteBox = ({ ramdomQuote, ramdomColor, getAllRamdom, background })
     return (
         <article style={color} className='card'>
 
-            <img className='card__border__quote' src={imgFondo} alt="Imagen de borde para citas" />
+            <img className='card__border__quote' src="./img/border.png" alt="Imagen de borde para citas" />
 
             <div className='card__title'>
                 <h1 className='card__h1'> <span className='quotation__marks'>“</span>Lo intentas, te equivocas <br />
